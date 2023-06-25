@@ -1,0 +1,325 @@
+
+/* PRESENTACION Y MENÚ */
+body {
+   background-color: #f4f4f4;
+}
+nav a {
+   list-style-type: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+   margin-left: 100px;
+   color: rgb(32, 35, 180);
+}
+nav ul a {
+   list-style-type: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-left: 180px;
+   color: rgb(32, 35, 180);
+
+
+}
+#presentacion h1 {
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   font-size: 28px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+#presentacion p {
+   color: black;
+   font-size: 18px;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-top: 50px;
+}
+.imagen{
+   width: 100%;
+}
+.imagen img{
+   width: 100%;
+}
+#presentacion img {
+   width: 1300px;
+   height: 200px;
+   margin-left: 20px;
+}
+#iconos p {
+   color: black;
+   font-size: 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+/*SERVICIOS DESTACADOS*/
+
+.serviciosd-grid img {
+   width: 100%;
+   height: 100%;
+   margin-left: 50px;
+}
+
+.serviciosd-grid{
+   display: grid;
+   grid-template-areas: 
+   "th2    th2    th2"
+   "th3    th3    th3"
+   "img1  text1   text1" 
+   "th33     th33  th33"
+   "img2  text2  text2";
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: 100px 100px 300px 100px 300px;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+
+.grid-th2 {
+   grid-area: th2;
+}
+
+.grid-th3 {
+   grid-area: th3;
+}
+
+.grid-img1  {
+   grid-area: img1;
+}
+
+.grid-text1{
+   grid-area: text1;
+}
+
+.grid-img2 {
+   grid-area: img2;
+}
+
+.grid-th33{
+   grid-area: th33;
+}
+
+.grid-text2 {
+   grid-area: text2;
+}
+
+.serviciosd-grid p {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serviciosd-grid h2 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serviciosd-grid h3 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 22px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*TODOS LOS SERVICIOS*/
+#serviciost h1 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serviciost img {
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 900px;
+   height: 900px;
+   justify-content: center;
+  
+
+}
+/*NOSOTROS*/
+#nosotros h1 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nosotros h2 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nosotros {
+   color: rgba(0, 0, 0, 0.938);
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bolder;
+   text-shadow: 2px 4px 10px #cccaca;
+}
+#nosotros p {
+   padding: 1em 2em 2em;
+}
+/*TURNOS*/
+/*Edicion del Carrusel*/
+.carousel-inner{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 1000px;
+   width: 1000px;
+   margin-top: 10px;
+  }
+
+/*CONTACTO*/
+ #contacto {
+   background-image: url(../media/footer22.jpg);
+   background-repeat: space;
+   background-size: cover;
+   color: black;
+   font-size: 16px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   font-weight: bolder;
+   margin-top: 50px;
+}
+#contacto h1 h2 {
+   align-items: center;
+   color: black;
+   font-weight: bolder;
+   font-size: 16px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: justify;
+}
+
+
+
+/* REGLA DE LA MEDIA QUERY */
+/* MOBILE */
+@media only screen and (max-width: 500px ) {
+   /*INICIO*/
+   .presentacion5 {
+      display: none;
+   }
+   .serviciosd-grid img {
+      width: 100%;
+      height: 100%;
+      margin-left: 5px;
+   }
+   .serviciosd-grid {
+      grid-template-areas: 
+      "th2"   
+      "th2"  
+      "th2"
+      "th3"    
+      "th3"    
+      "th3"
+      "img1"  
+      "text1"   
+      "text1" 
+      "th33"    
+      "th33"  
+      "th33"
+      "img2" 
+      "text2"  
+      "text2";
+      grid-template-columns: 90%;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+   }
+/*Edicion del Carrusel*/
+.turnos {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carousel-inner{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+   width: 400px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+  }
+  .nosotros1, .nosotrosp, .nosotros2 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .nosotros img {
+   margin-left: auto;
+   margin-right: auto;
+   height: 300px;
+   width: 300px;
+  }
+  .serviciost h1{
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .serviciost h2 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .serviciost img  {
+   display: block;
+   margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+.contacto h1 {
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contacto h2{
+   color: black;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ #contacto h2 {
+   background-image: url(../media/footer22.jpg);
+   background-repeat: space;
+   background-size: cover;
+   color: black;
+   font-size: 8px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   font-weight: bolder;
+   margin-top: 10px;
+}
+.fomulario form{
+   display: flex;
+   margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  font-size: 10px;
+}
+}
